@@ -17,7 +17,7 @@ let requestSync = require('sync-request');
 
 let BUILD_DIR = 'dist' // 构建目录
 let ENTRY_FILE = './node.txt' // SS(R)入口
-let PASSWORD_DIR = 'dist/123456' // 新建一个目录，防止他人直接访问
+let PASSWORD_DIR = 'dist/1' // 新建一个目录，防止他人直接访问
 
 let str = readSync(ENTRY_FILE)
 
