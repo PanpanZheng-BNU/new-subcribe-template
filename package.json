@@ -1,0 +1,23 @@
+{
+  "name": "build-tool",
+  "version": "1.0.0",
+  "description": "Provide SSR subscrible link",
+  "main": "app.js",
+  "scripts": {
+    "build": "node app.js"
+  },
+  "keywords": [
+    "ssr",
+    "subscrible link"
+  ],
+  "author": "Andy Chung",
+  "license": "ISC",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "superagent": "^6.1.0"
+  },
+  "dependencies": {
+    "request-promise": "^4.2.6",
+    "sync-request": "^6.1.0"
+  }
+}
