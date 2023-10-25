@@ -41,7 +41,7 @@ writeSync(path.resolve(__dirname, PASSWORD_DIR, 'index.html'), base64(result))
 let resultForClash = encodeURIComponent(str.split('\n')
                 .filter(item => checker(item))
                 .join('|'))
-const url = 'https://api.mcmz.xyz/sub?target=clash&url=' + resultForClash;
+const url = 'https://sub3.panpanz.xyz:25501/sub?target=clash&emoji=true&url=' + resultForClash;
 let res = requestSync('GET', url);
 writeText1 =  res.getBody('utf-8')
 writeSync(path.resolve(__dirname, PASSWORD_DIR, 'clash.yaml'), writeText1)
